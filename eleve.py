@@ -6,3 +6,7 @@ class Cours:
 
     def inscrire(self, eleve):
         self.eleves.append(eleve)
+
+
+    def __str__(self):
+        return f'{self.nom} {self.enseignant}'
