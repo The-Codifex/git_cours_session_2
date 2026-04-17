@@ -1,6 +1,6 @@
 from eleve import *
 class courso:
-    def __init__(self, nom, nombre, descripcion):
+    def __init__(self, nom, nombre, descripcion,attribut_de_git):
         self.nom = nom
         self.nombre = nombre
         self.descripcion = descripcion
