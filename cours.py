@@ -1,3 +1,4 @@
+from eleve import *
 class courso:
     def __init__(self, nom, nombre, descripcion):
         self.nom = nom
@@ -7,4 +8,3 @@ class courso:
 
     def __str__(self):
         return f'{self.nom} {self.nombre} {self.descripcion}'
-    
