@@ -10,3 +10,10 @@ class Cours:
 
     def __str__(self):
         return f'{self.nom} {self.enseignant}'
+
+class Eleve:
+    def __init__(self, nom):
+        self.nom = nom
+
+    def __str__(self):
+        return f'{self.nom}'
