@@ -9,3 +9,9 @@ class courso:
 
     def __str__(self):
         return f'{self.nom} {self.nombre} {self.descripcion}'
+    
+
+i=1
+for i in 10:
+    i += 1
+    #ddddddddddddddddddddddddddddddddddddddddddddddddddd
